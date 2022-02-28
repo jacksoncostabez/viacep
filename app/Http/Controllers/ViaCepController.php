@@ -16,6 +16,11 @@ class ViaCepController extends Controller
         return view('viacep.logadouro.consultar');
     }
 
+    public function automatico()
+    {
+        return view('viacep.automatico.index');
+    }
+
     /**
      * Responsável por consultar CEP no viacep.
      */
